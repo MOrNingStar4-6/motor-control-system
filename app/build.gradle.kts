@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.myapplication"
+    namespace = "com.donghan.motorcontrol"
     compileSdk = 34
 
     packagingOptions {
@@ -22,7 +22,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.donghan.motorcontrol"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
@@ -85,7 +85,6 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    implementation("com.github.felHR85:UsbSerial:6.1.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

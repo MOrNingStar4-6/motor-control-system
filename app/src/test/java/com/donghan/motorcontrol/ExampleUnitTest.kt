@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.donghan.motorcontrol
 
 import org.junit.Test
 

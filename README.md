@@ -26,7 +26,7 @@ app/src/main/
 │   ├── CMakeLists.txt      # NDK 构建配置
 │   ├── SerialPort.c        # JNI：termios 打开/配置串口
 │   └── SerialPort.h
-├── java/com/example/myapplication/
+├── java/com/donghan/motorcontrol/
 │   ├── MainActivity.kt     # 电机控制 UI 与命令下发
 │   ├── SerialPort.java     # JNI 串口封装（Builder 模式）
 │   ├── SerialPortFinder.java

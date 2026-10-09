@@ -101,11 +101,11 @@ static speed_t getBaudrate(jint baudrate) {
 }
 
 /*
- * Class:     com_example_myapplication_SerialPort
+ * Class:     com_donghan_motorcontrol_SerialPort
  * Method:    open
  * Signature: (Ljava/lang/String;IIIII)Ljava/io/FileDescriptor;
  */
-JNIEXPORT jobject JNICALL Java_com_example_myapplication_SerialPort_open
+JNIEXPORT jobject JNICALL Java_com_donghan_motorcontrol_SerialPort_open
         (JNIEnv *env, jobject thiz, jstring path, jint baudrate, jint dataBits, jint parity,
          jint stopBits, jint flags) {
 
@@ -249,11 +249,11 @@ JNIEXPORT jobject JNICALL Java_com_example_myapplication_SerialPort_open
 }
 
 /*
- * Class:     com_example_myapplication_SerialPort
+ * Class:     com_donghan_motorcontrol_SerialPort
  * Method:    close
  * Signature: ()V
  */
-JNIEXPORT void JNICALL Java_com_example_myapplication_SerialPort_close
+JNIEXPORT void JNICALL Java_com_donghan_motorcontrol_SerialPort_close
         (JNIEnv *env, jobject thiz) {
     jclass SerialPortClass = (*env)->GetObjectClass(env, thiz);
     if (SerialPortClass == NULL) {

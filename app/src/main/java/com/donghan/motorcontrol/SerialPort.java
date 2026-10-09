@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.donghan.motorcontrol;
 
 /*
  * Copyright 2009 Cedric Priscal

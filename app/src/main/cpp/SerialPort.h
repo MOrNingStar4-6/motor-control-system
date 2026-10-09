@@ -8,11 +8,11 @@
     #endif
 
     /*
-     * Class:     com_example_godemo_SerialPort
+     * Class:     com_donghan_motorcontrol_SerialPort
      * Method:    open
      * Signature: (Ljava/lang/String;IIIII)Ljava/io/FileDescriptor;
      */
-    JNIEXPORT jobject JNICALL Java_com_example_myapplication_SerialPort_open(
+    JNIEXPORT jobject JNICALL Java_com_donghan_motorcontrol_SerialPort_open(
             JNIEnv *env,
             jobject thiz,
             jstring path,
@@ -24,11 +24,11 @@
     );
 
     /*
-     * Class:     com_example_godemo_SerialPort
+     * Class:     com_donghan_motorcontrol_SerialPort
      * Method:    close
      * Signature: ()V
      */
-    JNIEXPORT void JNICALL Java_com_example_myapplication_SerialPort_close(
+    JNIEXPORT void JNICALL Java_com_donghan_motorcontrol_SerialPort_close(
             JNIEnv *env,
     jobject thiz
     );

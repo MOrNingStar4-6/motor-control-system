@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.donghan.motorcontrol
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -10,7 +10,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplication.SerialPortManager.OnDataReceivedListener
+import com.donghan.motorcontrol.SerialPortManager.OnDataReceivedListener
 
 class MainActivity : AppCompatActivity() {
 
